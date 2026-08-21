@@ -1,0 +1,7 @@
+# 推送目录白名单：只允许 dashboard.html + index.html（GitHub Pages 首页）
+# 禁止发布：模板、CSV 源数据、构建脚本、日志、其他 HTML 归档
+*
+!.gitignore
+!dashboard.html
+!index.html
+!.gitkeep
